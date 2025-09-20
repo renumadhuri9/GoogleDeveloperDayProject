@@ -1,0 +1,80 @@
+/* Premium dark theme styling */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.stApp {
+    font-family: 'Inter', sans-serif;
+}
+
+div[data-testid="stHeader"] {
+    background-color: rgba(0,0,0,0);
+}
+
+.main .block-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+div.css-1r6slb0.e1tzin5v2 {
+    background-color: rgba(28, 131, 225, 0.1);
+    border: 1px solid rgba(28, 131, 225, 0.1);
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+div.stMetric {
+    background-color: rgba(28, 28, 28, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Custom styling for sidebar */
+section[data-testid="stSidebar"] {
+    background-color: rgba(28, 28, 28, 0.2);
+    padding: 2rem 1rem;
+}
+
+section[data-testid="stSidebar"] .block-container {
+    margin-top: 1rem;
+}
+
+/* Custom styling for expander */
+.streamlit-expanderHeader {
+    background-color: rgba(28, 131, 225, 0.1);
+    border-radius: 8px;
+}
+
+/* Custom styling for plotly charts */
+.js-plotly-plot .plotly {
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgba(28, 28, 28, 0.5);
+}
+
+/* Premium badges and status indicators */
+.status-badge {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 500;
+    display: inline-block;
+    margin: 0.25rem 0;
+}
+
+.status-badge.success {
+    background-color: rgba(0, 200, 81, 0.1);
+    color: #00c851;
+    border: 1px solid rgba(0, 200, 81, 0.2);
+}
+
+.status-badge.warning {
+    background-color: rgba(255, 187, 0, 0.1);
+    color: #ffbb00;
+    border: 1px solid rgba(255, 187, 0, 0.2);
+}
+
+.status-badge.danger {
+    background-color: rgba(255, 68, 68, 0.1);
+    color: #ff4444;
+    border: 1px solid rgba(255, 68, 68, 0.2);
+}
